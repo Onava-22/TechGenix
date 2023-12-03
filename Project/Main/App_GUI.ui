@@ -1,0 +1,4295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1200</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="r_window">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>0</y>
+      <width>861</width>
+      <height>801</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(235, 242, 253)</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="r_aestheticpage">
+     <widget class="QLabel" name="aesthetic_imglbl">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>861</width>
+        <height>801</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../Assets/aesthetic_bg.jpeg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="r_homepage">
+     <widget class="QGroupBox" name="card_grpbox">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>30</y>
+        <width>501</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="cardbase_lbl2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>500</width>
+         <height>271</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-style:outset;
+border-width:2px;
+border-color:black;
+border-radius: 30px;
+background-color: white;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cardbase_lbl1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>230</y>
+         <width>500</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+border-style:outset;
+border-width:2px;
+border-bottom-left-radius:30px;
+border-bottom-right-radius:30px;
+border-color:black;
+background-color: rgb(6,54,122);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cardlogo_imglbl">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>30</y>
+         <width>121</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-style:outset;
+border-width:2px;
+border-color:black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../../../../.designer/Assets/TechGenix.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cardjob_lbl">
+       <property name="geometry">
+        <rect>
+         <x>173</x>
+         <y>80</y>
+         <width>61</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: white;
+color:black</string>
+       </property>
+       <property name="text">
+        <string>Job:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cardcontact_txtlbl">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>125</y>
+         <width>225</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>35</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cardmail_lbl">
+       <property name="geometry">
+        <rect>
+         <x>173</x>
+         <y>170</y>
+         <width>61</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: white;
+color:black</string>
+       </property>
+       <property name="text">
+        <string>Mail:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cardcontact_lbl">
+       <property name="geometry">
+        <rect>
+         <x>173</x>
+         <y>125</y>
+         <width>61</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: white;
+color:black</string>
+       </property>
+       <property name="text">
+        <string>Contact:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cardname_lbl">
+       <property name="geometry">
+        <rect>
+         <x>173</x>
+         <y>35</y>
+         <width>61</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: white;
+color:black</string>
+       </property>
+       <property name="text">
+        <string>Name:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cardjob_txt_lbl">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>80</y>
+         <width>225</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>35</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cardname_txtlbl">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>35</y>
+         <width>225</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>35</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="cardmail_txtlbl">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>170</y>
+         <width>225</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>35</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="company_lbl_card">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>250</y>
+         <width>321</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;
+background-color: rgb(6, 54, 122);</string>
+       </property>
+       <property name="text">
+        <string>TechGenix Solutions Pvt. Ltd.   Contact: 011-XXXX-XXXX</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <zorder>cardbase_lbl2</zorder>
+      <zorder>cardlogo_imglbl</zorder>
+      <zorder>cardjob_lbl</zorder>
+      <zorder>cardcontact_txtlbl</zorder>
+      <zorder>cardmail_lbl</zorder>
+      <zorder>cardcontact_lbl</zorder>
+      <zorder>cardname_lbl</zorder>
+      <zorder>cardjob_txt_lbl</zorder>
+      <zorder>cardname_txtlbl</zorder>
+      <zorder>cardmail_txtlbl</zorder>
+      <zorder>cardbase_lbl1</zorder>
+      <zorder>company_lbl_card</zorder>
+     </widget>
+     <widget class="QWidget" name="gridLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>370</y>
+        <width>781</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="persview_grid" columnstretch="1,5,1,1,5">
+       <item row="0" column="3">
+        <widget class="QLabel" name="address_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>Address:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="firstname_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>First Name:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="lastname_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>Last Name:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="gender_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>Gender:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="firstname_txtlbl">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QLabel" name="address_txtlbl">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="dob_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>DOB:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="middlename_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>Middle Name:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Preferred</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLabel" name="city_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>City:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLabel" name="state_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>State:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QLabel" name="zipcode_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>Zip Code:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="3">
+        <widget class="QLabel" name="contact_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>Contact:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="middlename_txtlbl">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="lastname_txtlbl">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLabel" name="gender_txtlbl">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLabel" name="dob_txtlbl">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLabel" name="city_txtlbl">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QLabel" name="state_txtlbl">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="4">
+        <widget class="QLabel" name="contact_txtlbl">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="QLabel" name="zipcode_txtlbl">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="r_perseditpage">
+     <widget class="QWidget" name="gridLayoutWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>370</y>
+        <width>781</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="editpers_gid" columnstretch="1,5,1,1,5">
+       <item row="2" column="3">
+        <widget class="QLabel" name="editstate_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>State:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="editfirstname_lineedit">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="editfirstname_lbl">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>First Name:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="editlastname_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>Last Name:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QLabel" name="editzipcode_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>Zip Code:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="editgender_lineedit">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <spacer name="horizontalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="4" column="3">
+        <widget class="QLabel" name="editcontact_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>Contact:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="QLineEdit" name="editzipcode_lineedit">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLabel" name="editaddress_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>Address:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="editdob_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>DOB:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="4">
+        <widget class="QLineEdit" name="editcontact_lineedit">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="editmiddlename_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>Middle Name:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLabel" name="editcity_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>City:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="editmiddlename_lineedit">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="editgender_lbl">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+         </property>
+         <property name="text">
+          <string>Gender:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="editdob_lineedit">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="editlastname_lineedit">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QLineEdit" name="editstate_lineedit">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLineEdit" name="editcity_lineedit">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QLineEdit" name="editaddress_lineedit">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="selectionbox_lbl">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>25</y>
+        <width>781</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-style:outset;
+border-width:2px;
+border-radius:30px;
+border-color:black;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="gender_chkbox">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>258</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>Gender</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="address_chkbox">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>180</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>Address</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="state_chkbox">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>232</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>State</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="zipcode_chkbox">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>258</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>Zip Code</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="city_chkbox">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>206</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>City</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="lastname_chkbox">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>232</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>Last Name</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="middlename_chkbox">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>206</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>Middle Name</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="display_lbl">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>48</y>
+        <width>741</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:30px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Select the Checkboxes for the categories where changes are to be made
+
+Format for Address: House_No.-St.Type-St.Name
+Format for Date Of Birth: YYYY-MM-DD</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="dob_chkbox">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>284</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>Date Of Birth</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="firstname_chkbox">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>180</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>First Name</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+      <property name="autoRepeat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="contact_chkbox">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>284</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>Contact</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="confirmchange_btn">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>260</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(6, 54, 122);
+color:white;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:white</string>
+      </property>
+      <property name="text">
+       <string>Confirm Changes</string>
+      </property>
+      <property name="shortcut">
+       <string>Return</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="changestatus_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>190</y>
+        <width>191</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>Click Confirm to Apply Changes</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="r_depviewpage">
+     <widget class="QLabel" name="dephead_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>30</y>
+        <width>781</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Mongolian Baiti</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+border-style:outset;
+border-width:2px;
+border-radius:50px;
+border-color:black;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>Department Name Here</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="dep_table">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>160</y>
+        <width>781</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="gridStyle">
+       <enum>Qt::DashDotLine</enum>
+      </property>
+      <column>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Gender</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Job</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Mail</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="r_inboxpage">
+     <widget class="QLabel" name="inbox_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>30</y>
+        <width>781</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Mongolian Baiti</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+border-style:outset;
+border-width:2px;
+border-radius:50px;
+border-color:black;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>INBOX</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="inbox_table">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>160</y>
+        <width>781</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="gridStyle">
+       <enum>Qt::DashDotLine</enum>
+      </property>
+      <column>
+       <property name="text">
+        <string>Time</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Recieved From</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Message</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="r_sendpage">
+     <widget class="QLabel" name="message_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>30</y>
+        <width>781</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Mongolian Baiti</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+border-style:outset;
+border-width:2px;
+border-radius:50px;
+border-color:black;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>Message Colleagues</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="to_combobox">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>180</y>
+        <width>331</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Select Recipient</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="to_boxlbl">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>160</y>
+        <width>781</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:30px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="to_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>180</y>
+        <width>61</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+color:black</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="sendmode_radiobtn">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>180</y>
+        <width>95</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Send Mode</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="sentmode_radiobtn">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>180</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>View Sent Mode</string>
+      </property>
+     </widget>
+     <widget class="QStackedWidget" name="sendmodes_stckwidget">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>260</y>
+        <width>781</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="sendmode">
+       <widget class="QPushButton" name="sendmsg_btn">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>460</y>
+          <width>93</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: white;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(6, 54, 122);</string>
+        </property>
+        <property name="text">
+         <string>Send</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="msgstatus_lbl">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>460</y>
+          <width>611</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Choose Recipient. Type Message. Press Send.</string>
+        </property>
+       </widget>
+       <widget class="QTextEdit" name="message_txtedit">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>60</y>
+          <width>721</width>
+          <height>391</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black;
+border-style:outset;
+border-width:1px;
+border-color:black;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="msg_txtlbl">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>61</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: white;
+color:black</string>
+        </property>
+        <property name="text">
+         <string>Message:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="message_boxlbl">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>781</width>
+          <height>501</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:30px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <zorder>message_boxlbl</zorder>
+       <zorder>msg_txtlbl</zorder>
+       <zorder>sendmsg_btn</zorder>
+       <zorder>msgstatus_lbl</zorder>
+       <zorder>message_txtedit</zorder>
+      </widget>
+      <widget class="QWidget" name="sentmode">
+       <widget class="QTableWidget" name="sent_table">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>781</width>
+          <height>501</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="gridStyle">
+         <enum>Qt::DashDotLine</enum>
+        </property>
+        <column>
+         <property name="text">
+          <string>Time</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Sent to</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Message</string>
+         </property>
+        </column>
+       </widget>
+      </widget>
+     </widget>
+     <zorder>message_txtlbl</zorder>
+     <zorder>to_boxlbl</zorder>
+     <zorder>to_combobox</zorder>
+     <zorder>to_txtlbl</zorder>
+     <zorder>sendmode_radiobtn</zorder>
+     <zorder>sentmode_radiobtn</zorder>
+     <zorder>sendmodes_stckwidget</zorder>
+    </widget>
+    <widget class="QWidget" name="r_supervisorpage">
+     <widget class="QLabel" name="supervisor_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>30</y>
+        <width>781</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Mongolian Baiti</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+border-style:outset;
+border-width:2px;
+border-radius:50px;
+border-color:black;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>SUPERVISORS</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="supervisor_table">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>160</y>
+        <width>781</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="gridStyle">
+       <enum>Qt::DashDotLine</enum>
+      </property>
+      <column>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Department</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Mail</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="r_admhomepage">
+     <widget class="QLabel" name="adm_homehead_boxlbl">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>27</y>
+        <width>781</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-style:outset;
+border-width:2px;
+border-radius:80px;
+border-color:black;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="adm_homehead_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>66</y>
+        <width>741</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Mongolian Baiti</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:40px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>ADMIN PANEL</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="adm_homehead_statuslbl">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>170</y>
+        <width>321</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>Welcome, ADMIN</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="countall_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>503</x>
+        <y>273</y>
+        <width>265</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="countmale_lbl">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>371</y>
+        <width>127</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+      </property>
+      <property name="text">
+       <string>Male Employees:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="countall_lbl">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>273</y>
+        <width>127</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+      </property>
+      <property name="text">
+       <string>No of Employees:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="countmale_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>503</x>
+        <y>371</y>
+        <width>265</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="countfem_lbl">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>322</y>
+        <width>127</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+      </property>
+      <property name="text">
+       <string>Female Employees:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="countfem_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>503</x>
+        <y>322</y>
+        <width>265</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="countother_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>503</x>
+        <y>420</y>
+        <width>265</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="countother_lbl">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>420</y>
+        <width>127</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: ;
+background-color: rgb(235, 242, 253);
+color:black</string>
+      </property>
+      <property name="text">
+       <string>Other Employees:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="adm_home_complogo">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>250</y>
+        <width>221</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-color: black;
+border-style:outset;
+border-width:2px;
+border-radius:1px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../../../.designer/Assets/TechGenix.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="adm_home_boxlbl">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>230</y>
+        <width>261</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-style:outset;
+border-width:2px;
+border-radius:50px;
+border-color:black;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="selectionbox_lbl_9">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>530</y>
+        <width>781</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-style:outset;
+border-width:2px;
+border-radius:80px;
+border-color:black;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="display_lbl_7">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>570</y>
+        <width>741</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:30px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Click the Backup Button to get all the System Databases in a .csv in the Downloads Folder.
+
+Go To Query, Type and Custom Query, Type a Name and Click Download
+to obtain a custom .csv in the Downloads Folder
+
+Tables: Employee, UserKeys, Messages, Details</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="backup_btn">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>710</y>
+        <width>270</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Backup</string>
+      </property>
+     </widget>
+     <zorder>adm_homehead_boxlbl</zorder>
+     <zorder>adm_homehead_txtlbl</zorder>
+     <zorder>adm_homehead_statuslbl</zorder>
+     <zorder>adm_home_boxlbl</zorder>
+     <zorder>adm_home_complogo</zorder>
+     <zorder>selectionbox_lbl_9</zorder>
+     <zorder>display_lbl_7</zorder>
+     <zorder>backup_btn</zorder>
+     <zorder>countall_txtlbl</zorder>
+     <zorder>countmale_lbl</zorder>
+     <zorder>countall_lbl</zorder>
+     <zorder>countmale_txtlbl</zorder>
+     <zorder>countfem_lbl</zorder>
+     <zorder>countfem_txtlbl</zorder>
+     <zorder>countother_txtlbl</zorder>
+     <zorder>countother_lbl</zorder>
+    </widget>
+    <widget class="QWidget" name="r_admquerypage">
+     <widget class="QLabel" name="adm_queryhead_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>30</y>
+        <width>781</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Mongolian Baiti</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+border-style:outset;
+border-width:2px;
+border-radius:50px;
+border-color:black;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>QUERY MODE</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="adm_query_boxlbl">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>160</y>
+        <width>781</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:30px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="adm_query_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>180</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+color:black</string>
+      </property>
+      <property name="text">
+       <string>Query:</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="adm_query_txtedit">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>180</y>
+        <width>671</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:1px;
+border-color:black;</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="adm_querydisp_table">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>330</y>
+        <width>781</width>
+        <height>431</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="gridStyle">
+       <enum>Qt::DashDotLine</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="adm_query_status_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>270</y>
+        <width>241</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Type Query. Press Confirm. View Result.</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="adm_query_confirm_btn">
+      <property name="geometry">
+       <rect>
+        <x>688</x>
+        <y>270</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>Confirm</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="adm_query_download_btn">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>270</y>
+        <width>102</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>Download</string>
+      </property>
+      <property name="shortcut">
+       <string>Ctrl+S</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="adm_filename_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>333</x>
+        <y>269</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+color:black</string>
+      </property>
+      <property name="text">
+       <string>File Name:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="adm_filename_lineedit">
+      <property name="geometry">
+       <rect>
+        <x>408</x>
+        <y>270</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>10</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Table</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="r_updatepage">
+     <widget class="QLabel" name="adm_update_status_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>270</y>
+        <width>611</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Type Update Query. Press Confirm.</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="adm_update_confirm_btn">
+      <property name="geometry">
+       <rect>
+        <x>688</x>
+        <y>270</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>Confirm</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="adm_update_boxlbl">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>160</y>
+        <width>781</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:30px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="adm_updatehead_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>30</y>
+        <width>781</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Mongolian Baiti</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+border-style:outset;
+border-width:2px;
+border-radius:50px;
+border-color:black;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>UPDATE MODE</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="adm_update_txtedit">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>180</y>
+        <width>671</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:1px;
+border-color:black;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="adm_update_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>180</y>
+        <width>51</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+color:black</string>
+      </property>
+      <property name="text">
+       <string>Update
+Query:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="adm_updatehistory_boxlbl">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>330</y>
+        <width>781</width>
+        <height>431</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:30px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="adm_historysubhead_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>350</y>
+        <width>741</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-style:outset;
+border-width:2px;
+border-radius:30px;
+border-color:black;
+background-color: rgb(6, 54, 122);
+color:rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>HISTORY</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="adm_historydisp_table">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>450</y>
+        <width>701</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="gridStyle">
+       <enum>Qt::DashDotLine</enum>
+      </property>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>675</number>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>Update Query</string>
+       </property>
+      </column>
+     </widget>
+     <zorder>adm_update_boxlbl</zorder>
+     <zorder>adm_updatehead_txtlbl</zorder>
+     <zorder>adm_update_txtedit</zorder>
+     <zorder>adm_update_txtlbl</zorder>
+     <zorder>adm_update_status_txtlbl</zorder>
+     <zorder>adm_update_confirm_btn</zorder>
+     <zorder>adm_updatehistory_boxlbl</zorder>
+     <zorder>adm_historysubhead_txtlbl</zorder>
+     <zorder>adm_historydisp_table</zorder>
+    </widget>
+    <widget class="QWidget" name="r_admannouncepage">
+     <widget class="QComboBox" name="adm_annto_combobox">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>180</y>
+        <width>331</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>All Employees</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="adm_ann_boxlbl">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>160</y>
+        <width>781</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:30px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="adm_announcehead_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>30</y>
+        <width>781</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Mongolian Baiti</family>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+border-style:outset;
+border-width:2px;
+border-radius:50px;
+border-color:black;
+background-color: rgb(6, 54, 122);</string>
+      </property>
+      <property name="text">
+       <string>ANNOUNCEMENTS</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="adm_sentmode_radiobtn">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>180</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>View Sent Mode</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="adm_annto_txtlbl">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>180</y>
+        <width>61</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+color:black</string>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="adm_sendmode_radiobtn">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>180</y>
+        <width>95</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Send Mode</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QStackedWidget" name="adm_annsentsend_stckwdgt">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>260</y>
+        <width>781</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="adm_sendann_page">
+       <widget class="QLabel" name="adm_ann_boxlbl_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>781</width>
+          <height>501</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:30px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="adm_ann_txtlbl">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>111</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: white;
+color:black</string>
+        </property>
+        <property name="text">
+         <string>Announcement:</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="adm_sendann_btn">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>460</y>
+          <width>93</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: white;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(6, 54, 122);</string>
+        </property>
+        <property name="text">
+         <string>Send</string>
+        </property>
+       </widget>
+       <widget class="QTextEdit" name="adm_ann_txtedit">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>60</y>
+          <width>721</width>
+          <height>391</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black;
+border-style:outset;
+border-width:1px;
+border-color:black;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="adm_annstatus_txtlbl">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>460</y>
+          <width>611</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Choose Recipient. Type Message. Press Send.</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="adm_sentann_page">
+       <widget class="QTableWidget" name="adm_sentann_table">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>781</width>
+          <height>501</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="gridStyle">
+         <enum>Qt::DashDotLine</enum>
+        </property>
+        <column>
+         <property name="text">
+          <string>Time</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Sent to</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Message</string>
+         </property>
+        </column>
+       </widget>
+      </widget>
+     </widget>
+     <zorder>adm_ann_boxlbl</zorder>
+     <zorder>adm_announcehead_txtlbl</zorder>
+     <zorder>adm_sentmode_radiobtn</zorder>
+     <zorder>adm_annto_txtlbl</zorder>
+     <zorder>adm_sendmode_radiobtn</zorder>
+     <zorder>adm_annto_combobox</zorder>
+     <zorder>adm_annsentsend_stckwdgt</zorder>
+    </widget>
+   </widget>
+   <widget class="QStackedWidget" name="l_window">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>341</width>
+      <height>801</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(6, 54, 122)</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="l_loginpage">
+     <widget class="QLabel" name="logo_imglbl">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>100</y>
+        <width>301</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-color: black;
+border-style:outset;
+border-width:2px;
+border-radius:1px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../Assets/TechGenix.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>410</y>
+        <width>321</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="input_grid">
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="key_lineinp">
+         <property name="styleSheet">
+          <string notr="true">border-style:outset;
+border-width:2px;
+border-radius:10px;
+background-color:white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="user_lineinp">
+         <property name="styleSheet">
+          <string notr="true">border-style:outset;
+border-width:2px;
+border-radius:10px;
+background-color:white</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="key_lbl">
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent;
+color:white</string>
+         </property>
+         <property name="text">
+          <string>Passkey:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="user_lbl">
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent;
+color:white</string>
+         </property>
+         <property name="text">
+          <string>Username:</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="company_lbl">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>780</y>
+        <width>321</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white</string>
+      </property>
+      <property name="text">
+       <string>TechGenix Solutions Pvt. Ltd.   Contact: 011-XXXX-XXXX</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>510</y>
+        <width>321</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="confirmstatusgrid">
+       <item>
+        <widget class="QPushButton" name="confirm_btn">
+         <property name="styleSheet">
+          <string notr="true">background-color:white;
+color:black;
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black</string>
+         </property>
+         <property name="text">
+          <string>
+Confirm
+</string>
+         </property>
+         <property name="shortcut">
+          <string>Return</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="status">
+         <property name="styleSheet">
+          <string notr="true">background-color: transparent;
+color:white</string>
+         </property>
+         <property name="text">
+          <string>Enter your details above...</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="Quit_btn">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>740</y>
+        <width>261</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Quit</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="l_employeetab">
+     <widget class="QWidget" name="gridLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>321</width>
+        <height>72</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="curuser_grid" columnstretch="20,2,60">
+       <item row="0" column="0" rowspan="2">
+        <widget class="QLabel" name="user_img">
+         <property name="maximumSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../../../.designer/Assets/user_logo.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="lname_lbl">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: white</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLabel" name="lmail_lbl">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: white</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="gridLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>130</y>
+        <width>281</width>
+        <height>326</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="features_grid" columnstretch="20,1,60">
+       <item row="5" column="2">
+        <widget class="QPushButton" name="inbox_btn">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:white</string>
+         </property>
+         <property name="text">
+          <string>View Inbox</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="2">
+        <spacer name="vspacer3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="0" rowspan="2">
+        <widget class="QLabel" name="personal_img">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../../../.designer/Assets/personal_logo.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="2">
+        <spacer name="vspacer4">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="9" column="2">
+        <widget class="QPushButton" name="supervisor_btn">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:white</string>
+         </property>
+         <property name="text">
+          <string>View Supervisors</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <spacer name="Spacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="inbox_img">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../../../.designer/Assets/inbox_logo.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QPushButton" name="department_btn">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:white</string>
+         </property>
+         <property name="text">
+          <string>View Department Details</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <spacer name="vspacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="supervisor_img">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../../../.designer/Assets/supervisor_logo.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <spacer name="vspacer2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="department_img">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../../../.designer/Assets/department_logo.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2" rowspan="2">
+        <widget class="QPushButton" name="personal_btn">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:white</string>
+         </property>
+         <property name="text">
+          <string>Edit Personal Details</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="QPushButton" name="send_btn">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:white</string>
+         </property>
+         <property name="text">
+          <string>Send Messages</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="send_img">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../../../.designer/Assets/send_logo.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="signout_btn">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>740</y>
+        <width>261</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Sign Out</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="company_lbl_empgui">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>780</y>
+        <width>321</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white</string>
+      </property>
+      <property name="text">
+       <string>TechGenix Solutions Pvt. Ltd.   Contact: 011-XXXX-XXXX</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="home_btn">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>699</y>
+        <width>261</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:white</string>
+      </property>
+      <property name="text">
+       <string>Home</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="l_admintab">
+     <widget class="QWidget" name="gridLayoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>321</width>
+        <height>72</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="curuser_grid_2" columnstretch="20,2,60">
+       <item row="0" column="0" rowspan="2">
+        <widget class="QLabel" name="ladmin_imglbl">
+         <property name="maximumSize">
+          <size>
+           <width>70</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../../../.designer/Assets/user_logo.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="lname_lbl_adm">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: white</string>
+         </property>
+         <property name="text">
+          <string>ADMIN</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLabel" name="lmail_lbl_adm">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: white</string>
+         </property>
+         <property name="text">
+          <string>admin.solutions@techgenix.com</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="gridLayoutWidget_6">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>130</y>
+        <width>281</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="features_grid_adm" rowstretch="10,0,0,0,0,0" columnstretch="20,1,60">
+       <item row="2" column="2">
+        <spacer name="vspacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="l_announcementimage">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../../../.designer/Assets/department_logo.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="2">
+        <widget class="QPushButton" name="l_announcementbtn">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:white</string>
+         </property>
+         <property name="text">
+          <string>Announcements</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <spacer name="Spacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="0" rowspan="2">
+        <widget class="QLabel" name="l_queryimg">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../../../.designer/Assets/personal_logo.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2" rowspan="2">
+        <widget class="QPushButton" name="l_querybtn">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:white</string>
+         </property>
+         <property name="text">
+          <string>Query Mode</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <spacer name="vspacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="3" column="2">
+        <widget class="QPushButton" name="l_updatebtn">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:white</string>
+         </property>
+         <property name="text">
+          <string>Update Mode</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="l_updateimage">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../../../.designer/Assets/department_logo.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="adm_home">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>699</y>
+        <width>261</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:white</string>
+      </property>
+      <property name="text">
+       <string>Home</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>740</y>
+        <width>261</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 127);
+border-style:outset;
+border-width:2px;
+border-radius:10px;
+border-color:black;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Sign Out</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="company_lbl_empgui_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>780</y>
+        <width>321</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white</string>
+      </property>
+      <property name="text">
+       <string>TechGenix Solutions Pvt. Ltd.   Contact: 011-XXXX-XXXX</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
